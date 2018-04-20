@@ -21,3 +21,19 @@
     pares([0, 1, 2, 3, 4]); // [0, 2, 4]
     pares(["m", "p", "a", "u", "k", "0", "e"]); // ["m", "a", "k", "e"]
     ```
+
+4. Escribir una función llamada `triqui` que reciba un argumento `board` (un arreglo de arreglos) y retorne `true` si hay triqui, `false` de lo contrario.
+
+   ```js
+   triqui([
+     ["X", "O", "-"],
+     ["O", "O", "X"],
+     ["-", "O", "X"]
+   ]); // true
+
+   triqui([
+     ["X", "X", "-"],
+     ["O", "O", "X"],
+     ["-", "O", "X"]
+   ]); // false
+   ```

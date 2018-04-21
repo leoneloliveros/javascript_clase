@@ -7,11 +7,12 @@ function contar(str){
 	// 	}
 	// }
 	var a = str.match(/a/g);
-	if (a === null) {
-		return 0;
-	} else {
-		return a.length;
-	}
+	return a === null ? 0 : a.length;
+	// if (a === null) {
+	// 	return 0;
+	// } else {
+	// 	return a.length;
+	// }
 }
 console.log(contar("Hola Make it Real")); // 3
 console.log(contar("")); // 0
